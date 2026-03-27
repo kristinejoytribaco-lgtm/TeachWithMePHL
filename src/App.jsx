@@ -13,7 +13,7 @@ import Lesson from './pages/Lesson';
 import Game from './pages/Game';
 import Progress from './pages/Progress';
 import Settings from './pages/Settings';
-
+import Student from './entities/Student';
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
 
